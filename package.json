@@ -1,0 +1,19 @@
+{
+  "name": "identicon-generator",
+  "version": "1.0.0",
+  "description": "a VueJs web app to generate icons automatically based upon a text input.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francomac/identicon-generator.git"
+  },
+  "author": "francomac",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francomac/identicon-generator/issues"
+  },
+  "homepage": "https://github.com/francomac/identicon-generator#readme"
+}
