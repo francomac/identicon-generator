@@ -17,15 +17,26 @@ Vue.component("main-container", {
     };
   },
   computed: {
-      identicon: function() {
-        return jdenticon.toSvg(this.textInput, 200); // params (seed, width/height)
-      },
+    identicon: function () {
+      return jdenticon.toSvg(this.textInput, 200); // params (seed, width/height)
+    },
   },
   methods: {
     onNewText: function ($event) {
       this.textInput = $event.target.value;
     },
   },
+});
+
+Vue.component("app-header", {
+  data() {
+    return {
+      headerTitle: "Identicon Generator",
+    };
+  },
+  template: `
+    <h1>{{headerTitle}}</h1>
+    `,
 });
 
 let vm = new Vue({
